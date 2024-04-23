@@ -1,0 +1,339 @@
+.box{
+ position: relative;
+ z-index: -1;   
+}
+/* .image{
+    position: relative;
+    z-index: -1; */
+
+.hear{
+    position: relative;
+    z-index: -1;
+}
+
+.navbar{
+    background-color: #097CB5;
+    height: 50px;
+    margin-top: -17px;
+    margin-left: -8px;
+    margin-right: -60px;
+    position: sticky;
+    top: 0;
+}
+a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+a.home{
+color: white;
+text-decoration: none;
+position: absolute;
+left: 700px;
+margin-top: -32px;
+}
+p.give{
+    color: white;
+    margin-left: 150px;
+    padding-top: 15px;
+}
+a.about{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 800px;
+    margin-top: -20px;
+    margin-top: -32px;
+}
+a.land{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 900px;
+    margin-top: -20px;
+    border-bottom: 1px solid white;
+    margin-top: -32px;
+}
+a.cont{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 1000px;
+    margin-top: -20px;
+    margin-top: -32px;
+}
+/* For the image */
+.fairy{
+    width: 1400px;
+    height: 600px;
+    margin-left: -40px;
+    position: relative;
+    right: -30px;
+}
+/* For the 1st page with Juicy Downloads */
+p.juicy{
+    font-size: 50px;
+    position: relative;
+    top: -580px;
+    color: white;
+    margin-left: 330px;
+}
+p.every{
+    font-size: 17px;
+    position: relative;
+    top: -600px;
+    color: white;
+    margin-left: 330px;
+}
+p.get{
+    font-size: 17px;
+    position: relative;
+    top: -600px;
+    color: white;
+    margin-left: 330px;
+}
+/* For the two buttons */
+button.your{
+    background-color: white;
+    color: #097CB5;
+    border: 8px;
+    position: relative;
+    top: -580px;
+    margin-left: 330px;
+    width: 330px;
+    padding: 12px;
+    font-weight: bolder;
+}
+button.get{
+    background-color: #097CB5;
+    color: white;
+    border: 8px;
+    position: relative;
+    top: -520px;
+    margin-left: -333px;
+    width: 330px;
+    padding: 12px;
+    font-weight: 500px;
+    font-size: 15px;
+}
+
+/* For the special features part */
+p.special{
+    font-size: 35px;
+    color:#3398CC;
+    position: relative;
+    top: -330px;
+    margin-left: 460px;
+}
+
+/* For the first three images */
+.boximage1{
+    border: 2px hidden black;
+    width: 220px;
+    height: 300px;
+    position: relative;
+    margin-top: -300px;
+    margin-left: 330px;
+}
+img.climb1{
+    width: 220px;
+    height: 200px;
+}
+.boximage2{
+    border: 2px hidden black;
+    width: 220px;
+    height: 300px;
+    position: relative;
+    margin-top: -300px;
+    margin-left: 590px;
+}
+img.climb2{
+    width: 30px;
+    height: 30px;
+}
+.boximage3{
+    border: 2px hidden black;
+    width: 220px;
+    height: 300px;
+    position: relative;
+    margin-top: -300px;
+    margin-left: 840px;
+}
+img.climb3{
+    width: 220px;
+    height: 200px;
+}
+
+/* For the gallery of giveaway */
+p.gallery{
+    font-size: 30px;
+    color:#3398CC;
+    position: relative;
+    top: 30px;
+    bottom: 30px;
+    margin-left: 550px;
+}
+.boximage4{
+    border: 2px hidden black;
+    width: 220px;
+    height: 300px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 840px;
+    margin-bottom: -30px;
+}
+img.climb4{
+    width: 220px;
+    height: 200px;
+    margin-top: 10px;
+}
+.boximage5{
+    border: 2px hidden black;
+    width: 220px;
+    height: 300px;
+    position: relative;
+    margin-top: -290px;
+    margin-left: 590px;
+}
+img.climb5{
+    width: 220px;
+    height: 200px;
+}
+.boximage6{
+    border: 2px hidden black;
+    width: 220px;
+    height: 300px;
+    position: relative;
+    margin-top: -300px;
+    margin-left: 340px;
+}
+img.climb6{
+    width: 220px;
+    height: 200px;
+}
+
+/* Hear from our Happy Subscribers */
+.box2{
+    background-color: #3398CC;
+    margin-top: -80px;
+    height: 350px;
+}
+p.hear{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 20px;
+
+}
+p.these{
+    color: white;
+    text-align: center;
+}
+p.my{
+    color: white;
+    text-align: center;
+}
+img.bacci{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 580px;
+}
+p.lil{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 640px;
+    top: -60px;
+}
+p.begin{
+    color: white;
+    font-size: 10px;
+    position: relative;
+    left: 640px;
+    top: -77px;
+}
+/* For the three circles */
+.circle1{
+    border: 2px solid white;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    position: relative;
+    left: 610px;
+    top: -50px;
+}
+.circle2{
+    border: 2px solid white;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    position: relative;
+    left: 655px;
+    top: -60px;
+}
+.circle3{
+    border: 2px solid white;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    position: relative;
+    left: 700px;
+    top: -71px;
+}
+/* For the two buttons */
+button.add{
+    background-color: white;
+    color: #3398CC;
+    border: 1px solid white;
+    padding: 15px;
+    width: 250px;
+    position: relative;
+    top: -30px;
+    left: 420px;
+}
+button.away{
+    background-color: #3398CC;
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    width: 170px;
+    position: relative;
+    top: -30px;
+    left: 415px;
+}
+/* For the MetaKave */
+.about{
+    color:#3398CC;
+    text-align: center;
+}
+.lorem{
+    text-align: center;
+}
+.fa-twitter{
+    color: rgba(8, 131, 231, 0.685);
+    border: 1px solid  rgba(8, 131, 231, 0.685);
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 80px;
+}
+.fa-hashtag{
+    color: rgba(8, 131, 231, 0.685);
+    border: 1px solid  rgba(8, 131, 231, 0.685);
+    padding: 20px;
+    margin-right: 80px;
+}
+.fa-linkedin-in{
+    color: rgba(8, 131, 231, 0.685);
+    border: 1px solid  rgba(8, 131, 231, 0.685);
+    padding: 20px;
+}
+/* Last box */
+.box1{
+    background-color: rgba(8, 131, 231, 0.685);
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
